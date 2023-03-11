@@ -19,6 +19,6 @@ from vagonetas import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', views.Inicio),
-    #path("pañalera_vagonetas/",include("pañalera_vagonetas.urls")),
+
+    path("pañalera_vagonetas/",include("vagonetas.urls")),
 ]
