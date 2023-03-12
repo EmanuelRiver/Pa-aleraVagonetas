@@ -4,3 +4,6 @@ from django.shortcuts import render
 def Inicio(request):
     return render(request,"vagonetas/inicio.html")
    
+
+def pañales(request):
+    return render(request,"vagonetas/pañales.html")
